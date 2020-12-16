@@ -1,4 +1,4 @@
 # chat/consumers.py
 import json
 
-from 
+from channels.auth import log
