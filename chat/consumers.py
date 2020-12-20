@@ -2,4 +2,6 @@
 import json
 
 from channels.auth import login
-from channels.generic.websocket import AsyncWebsocketConsume
+from channels.generic.websocket import AsyncWebsocketConsumer
+
+class ChatConsume
