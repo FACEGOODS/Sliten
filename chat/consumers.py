@@ -5,4 +5,4 @@ from channels.auth import login
 from channels.generic.websocket import AsyncWebsocketConsumer
 
 class ChatConsumer(AsyncWebsocketConsumer):
-    async d
+    async def connect(self
