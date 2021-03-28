@@ -12,4 +12,7 @@ class ChatConsumer(AsyncWebsocketConsumer):
         # Join room group
         await self.channel_layer.group_add(
             self.room_group_name,
-            self.chan
+            self.channel_name
+        )
+
+  
