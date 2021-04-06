@@ -15,4 +15,4 @@ class ChatConsumer(AsyncWebsocketConsumer):
             self.channel_name
         )
 
-  
+        await self.ac
