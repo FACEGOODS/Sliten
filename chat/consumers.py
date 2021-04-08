@@ -15,4 +15,6 @@ class ChatConsumer(AsyncWebsocketConsumer):
             self.channel_name
         )
 
-        await self.ac
+        await self.accept()
+
+    async def di
