@@ -21,4 +21,7 @@ class ChatConsumer(AsyncWebsocketConsumer):
         # Leave room group
         await self.channel_layer.group_discard(
             self.room_group_name,
-            self.ch
+            self.channel_name
+        )
+
+    # R
