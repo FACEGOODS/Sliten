@@ -24,4 +24,4 @@ class ChatConsumer(AsyncWebsocketConsumer):
             self.channel_name
         )
 
-    # R
+    # Receive message from 
