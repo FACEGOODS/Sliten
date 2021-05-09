@@ -27,4 +27,5 @@ class ChatConsumer(AsyncWebsocketConsumer):
     # Receive message from WebSocket
     async def receive(self, text_data):
 
-        # await login(self.scope, u
+        # await login(self.scope, user)
+        
