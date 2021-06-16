@@ -28,4 +28,4 @@ class ChatConsumer(AsyncWebsocketConsumer):
     async def receive(self, text_data):
 
         # await login(self.scope, user)
-        # # save the session (if the session backend does not access the db you can
+        # # save the session (if the session backend does not access the db you can use `sync_
