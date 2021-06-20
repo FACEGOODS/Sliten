@@ -29,4 +29,4 @@ class ChatConsumer(AsyncWebsocketConsumer):
 
         # await login(self.scope, user)
         # # save the session (if the session backend does not access the db you can use `sync_to_async`)
-        # awai
+        # await database_sync_to_asy
