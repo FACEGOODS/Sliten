@@ -29,4 +29,6 @@ class ChatConsumer(AsyncWebsocketConsumer):
 
         # await login(self.scope, user)
         # # save the session (if the session backend does not access the db you can use `sync_to_async`)
-        # await database_sync_to_async(self.scope["ses
+        # await database_sync_to_async(self.scope["session"].save)()
+
+   
