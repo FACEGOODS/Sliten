@@ -31,4 +31,4 @@ class ChatConsumer(AsyncWebsocketConsumer):
         # # save the session (if the session backend does not access the db you can use `sync_to_async`)
         # await database_sync_to_async(self.scope["session"].save)()
 
-        text_dat
+        text_data_json = json
