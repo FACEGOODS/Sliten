@@ -32,4 +32,4 @@ class ChatConsumer(AsyncWebsocketConsumer):
         # await database_sync_to_async(self.scope["session"].save)()
 
         text_data_json = json.loads(text_data)
-        message = text
+        message = text_data_json['message']
