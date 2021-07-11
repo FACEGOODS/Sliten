@@ -37,4 +37,5 @@ class ChatConsumer(AsyncWebsocketConsumer):
         message = f'{name} {"(self.room_name)"}: {message}'
         send_to_type = text_data_json['send_to_type']
 
-        if self.room
+        if self.room_name == 'A':
+         
