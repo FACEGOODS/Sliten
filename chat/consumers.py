@@ -38,4 +38,4 @@ class ChatConsumer(AsyncWebsocketConsumer):
         send_to_type = text_data_json['send_to_type']
 
         if self.room_name == 'A':
-            if send_to_type ==
+            if send_to_type == 'B' or send_to_type == 
