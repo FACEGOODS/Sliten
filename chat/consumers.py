@@ -39,4 +39,4 @@ class ChatConsumer(AsyncWebsocketConsumer):
 
         if self.room_name == 'A':
             if send_to_type == 'B' or send_to_type == 'BC':
-                await 
+                await self.channel_laye
