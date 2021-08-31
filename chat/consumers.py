@@ -46,4 +46,5 @@ class ChatConsumer(AsyncWebsocketConsumer):
                         'message': message
                     }
                 )
-            if send_to_type == 'C' or send_to_type == 'BC'
+            if send_to_type == 'C' or send_to_type == 'BC':
+      
