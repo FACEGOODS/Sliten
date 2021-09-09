@@ -48,4 +48,4 @@ class ChatConsumer(AsyncWebsocketConsumer):
                 )
             if send_to_type == 'C' or send_to_type == 'BC':
                 await self.channel_layer.group_send(
-    
+                  
