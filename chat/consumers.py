@@ -50,4 +50,5 @@ class ChatConsumer(AsyncWebsocketConsumer):
                 await self.channel_layer.group_send(
                     'chat_C',
                     {
-                        'type': 'chat_messag
+                        'type': 'chat_message',
+                
