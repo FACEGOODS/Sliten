@@ -51,4 +51,4 @@ class ChatConsumer(AsyncWebsocketConsumer):
                     'chat_C',
                     {
                         'type': 'chat_message',
-                
+                        'message': messa
