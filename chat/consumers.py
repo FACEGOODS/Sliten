@@ -65,4 +65,4 @@ class ChatConsumer(AsyncWebsocketConsumer):
         )
 
     # Receive message from room group
-    async def 
+    async def chat_message(s
