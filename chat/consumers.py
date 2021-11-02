@@ -64,4 +64,4 @@ class ChatConsumer(AsyncWebsocketConsumer):
             }
         )
 
-    # Rec
+    # Receive message from room gr
