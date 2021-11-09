@@ -68,4 +68,5 @@ class ChatConsumer(AsyncWebsocketConsumer):
     async def chat_message(self, event):
         message = event['message']
 
-        # Send messa
+        # Send message to WebSocket
+     
