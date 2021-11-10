@@ -69,4 +69,4 @@ class ChatConsumer(AsyncWebsocketConsumer):
         message = event['message']
 
         # Send message to WebSocket
-        await self.send
+        await self.send(text_data=json
