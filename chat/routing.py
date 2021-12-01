@@ -1,4 +1,6 @@
 # chat/routing.py
 from django.urls import re_path
 
-from . import consume
+from . import consumers
+
+websocket_ur
