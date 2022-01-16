@@ -10,3 +10,21 @@
     What chat room would you like to enter?<br>
     <select name="room" id="room">
         <option value="A">A</option>
+        <option value="B">B</option>
+        <option value="C">C</option>
+    </select><br>
+    <input id="room-name-submit" type="button" value="Enter">
+
+    <script>
+        document.querySelector('#room').focus();
+
+        document.querySelector('#room-name-submit').onclick = function(e) {
+            const roomName = document.querySelector('#room').value;
+            if (!roomName) {
+                window.alert("you must select a room!");
+                return;
+            }
+            window.location.pathname = '/chat/' + roomName + '/';
+        };
+    </script>
+</body>
