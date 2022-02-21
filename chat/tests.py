@@ -1,2 +1,2 @@
 # chat/tests.py
-from channels.testing
+from channels.testing import ChannelsLiveServe
