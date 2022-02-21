@@ -1,2 +1,2 @@
 # chat/tests.py
-fro
+from channels.testing
