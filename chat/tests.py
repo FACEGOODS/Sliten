@@ -5,4 +5,4 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support.wait import WebDriverWait
 
 class ChatTests(ChannelsLiveServerTestCase):
-    serve_static = True  # em
+    serve_static = True  # emulate StaticLiveSer
