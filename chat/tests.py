@@ -7,4 +7,5 @@ from selenium.webdriver.support.wait import WebDriverWait
 class ChatTests(ChannelsLiveServerTestCase):
     serve_static = True  # emulate StaticLiveServerTestCase
 
-    @c
+    @classmethod
+    def set
