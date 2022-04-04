@@ -8,4 +8,5 @@ class ChatTests(ChannelsLiveServerTestCase):
     serve_static = True  # emulate StaticLiveServerTestCase
 
     @classmethod
-    def setUpClass(cls)
+    def setUpClass(cls):
+        super(
