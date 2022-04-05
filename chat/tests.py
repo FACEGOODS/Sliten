@@ -10,4 +10,5 @@ class ChatTests(ChannelsLiveServerTestCase):
     @classmethod
     def setUpClass(cls):
         super().setUpClass()
- 
+        try:
+            #
