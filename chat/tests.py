@@ -11,4 +11,4 @@ class ChatTests(ChannelsLiveServerTestCase):
     def setUpClass(cls):
         super().setUpClass()
         try:
-            #
+            # NOTE: Requires "chromedr
