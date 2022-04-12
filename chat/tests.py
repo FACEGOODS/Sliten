@@ -11,4 +11,4 @@ class ChatTests(ChannelsLiveServerTestCase):
     def setUpClass(cls):
         super().setUpClass()
         try:
-            # NOTE: Requires "chromedriver" binary to b
+            # NOTE: Requires "chromedriver" binary to be installed in $PATH
