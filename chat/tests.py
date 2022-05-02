@@ -14,4 +14,5 @@ class ChatTests(ChannelsLiveServerTestCase):
             # NOTE: Requires "chromedriver" binary to be installed in $PATH
             cls.driver = webdriver.Chrome()
         except:
-            super().tearDownClass(
+            super().tearDownClass()
+            rais
