@@ -15,4 +15,6 @@ class ChatTests(ChannelsLiveServerTestCase):
             cls.driver = webdriver.Chrome()
         except:
             super().tearDownClass()
-            rais
+            raise
+
+    @classmet
