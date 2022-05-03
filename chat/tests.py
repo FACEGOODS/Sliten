@@ -17,4 +17,5 @@ class ChatTests(ChannelsLiveServerTestCase):
             super().tearDownClass()
             raise
 
-    @classmet
+    @classmethod
+    def tearDown
