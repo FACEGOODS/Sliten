@@ -18,4 +18,5 @@ class ChatTests(ChannelsLiveServerTestCase):
             raise
 
     @classmethod
-    def tearDown
+    def tearDownClass(cls):
+    
