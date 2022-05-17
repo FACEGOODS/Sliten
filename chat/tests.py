@@ -20,4 +20,6 @@ class ChatTests(ChannelsLiveServerTestCase):
     @classmethod
     def tearDownClass(cls):
         cls.driver.quit()
-        super().tearDownCl
+        super().tearDownClass()
+
+    d
