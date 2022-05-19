@@ -22,4 +22,4 @@ class ChatTests(ChannelsLiveServerTestCase):
         cls.driver.quit()
         super().tearDownClass()
 
-    d
+    def test_when_chat_message
