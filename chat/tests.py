@@ -22,4 +22,6 @@ class ChatTests(ChannelsLiveServerTestCase):
         cls.driver.quit()
         super().tearDownClass()
 
-    def test_when_chat_message_posted_then_seen_by_everyone_in_same_room
+    def test_when_chat_message_posted_then_seen_by_everyone_in_same_room(self):
+        try:
+    
