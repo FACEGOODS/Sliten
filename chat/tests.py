@@ -29,4 +29,4 @@ class ChatTests(ChannelsLiveServerTestCase):
             self._open_new_window()
             self._enter_chat_room('room_1')
 
-            
+            self._switch_to_windo
