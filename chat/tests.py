@@ -27,4 +27,6 @@ class ChatTests(ChannelsLiveServerTestCase):
             self._enter_chat_room('room_1')
 
             self._open_new_window()
-            self._enter_chat_room('room_
+            self._enter_chat_room('room_1')
+
+            
