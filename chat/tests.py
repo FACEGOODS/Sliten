@@ -30,4 +30,4 @@ class ChatTests(ChannelsLiveServerTestCase):
             self._enter_chat_room('room_1')
 
             self._switch_to_window(0)
-           
+            self._post_mess
