@@ -35,4 +35,4 @@ class ChatTests(ChannelsLiveServerTestCase):
                 'hello' in self._chat_log_value,
                 'Message was not received by window 1 from window 1')
             self._switch_to_window(1)
-            WebDri
+            WebDriverWait(self.driver,
