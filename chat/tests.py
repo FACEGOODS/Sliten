@@ -39,4 +39,6 @@ class ChatTests(ChannelsLiveServerTestCase):
                 'hello' in self._chat_log_value,
                 'Message was not received by window 2 from window 1')
         finally:
-            self._close_all_
+            self._close_all_new_windows()
+
+    de
