@@ -41,4 +41,4 @@ class ChatTests(ChannelsLiveServerTestCase):
         finally:
             self._close_all_new_windows()
 
-    de
+    def test_when_chat_mes
