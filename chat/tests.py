@@ -41,4 +41,4 @@ class ChatTests(ChannelsLiveServerTestCase):
         finally:
             self._close_all_new_windows()
 
-    def test_when_chat_message_posted_then_not_
+    def test_when_chat_message_posted_then_not_seen_by_anyon
