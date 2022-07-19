@@ -42,4 +42,5 @@ class ChatTests(ChannelsLiveServerTestCase):
             self._close_all_new_windows()
 
     def test_when_chat_message_posted_then_not_seen_by_anyone_in_different_room(self):
-        try
+        try:
+            self._e
