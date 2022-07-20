@@ -43,4 +43,6 @@ class ChatTests(ChannelsLiveServerTestCase):
 
     def test_when_chat_message_posted_then_not_seen_by_anyone_in_different_room(self):
         try:
-            self._enter_chat_roo
+            self._enter_chat_room('room_1')
+
+        
