@@ -49,4 +49,5 @@ class ChatTests(ChannelsLiveServerTestCase):
             self._enter_chat_room('room_2')
 
             self._switch_to_window(0)
-            self._post_m
+            self._post_message('hello')
+      
