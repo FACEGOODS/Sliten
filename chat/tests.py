@@ -52,4 +52,4 @@ class ChatTests(ChannelsLiveServerTestCase):
             self._post_message('hello')
             WebDriverWait(self.driver, 2).until(lambda _:
                 'hello' in self._chat_log_value,
-                'Message was not rece
+                'Message was not received by window 1 from wi
