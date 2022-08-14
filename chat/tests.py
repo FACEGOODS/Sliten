@@ -54,4 +54,4 @@ class ChatTests(ChannelsLiveServerTestCase):
                 'hello' in self._chat_log_value,
                 'Message was not received by window 1 from window 1')
 
-            s
+            self._switch_to_windo
