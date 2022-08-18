@@ -55,4 +55,5 @@ class ChatTests(ChannelsLiveServerTestCase):
                 'Message was not received by window 1 from window 1')
 
             self._switch_to_window(1)
-            self._post_mess
+            self._post_message('world')
+            We
