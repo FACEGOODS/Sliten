@@ -56,4 +56,5 @@ class ChatTests(ChannelsLiveServerTestCase):
 
             self._switch_to_window(1)
             self._post_message('world')
-            WebDriverWait(self.driver, 2).until(la
+            WebDriverWait(self.driver, 2).until(lambda _:
+     
