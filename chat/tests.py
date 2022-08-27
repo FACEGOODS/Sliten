@@ -58,4 +58,5 @@ class ChatTests(ChannelsLiveServerTestCase):
             self._post_message('world')
             WebDriverWait(self.driver, 2).until(lambda _:
                 'world' in self._chat_log_value,
-                'Message was not received by window 2 from window 2'
+                'Message was not received by window 2 from window 2')
+            self.as
