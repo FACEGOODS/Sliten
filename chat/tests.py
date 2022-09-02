@@ -60,4 +60,5 @@ class ChatTests(ChannelsLiveServerTestCase):
                 'world' in self._chat_log_value,
                 'Message was not received by window 2 from window 2')
             self.assertTrue('hello' not in self._chat_log_value,
-                'Message was improperly received by window 2 from window 1'
+                'Message was improperly received by window 2 from window 1')
+        final
