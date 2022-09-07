@@ -64,4 +64,4 @@ class ChatTests(ChannelsLiveServerTestCase):
         finally:
             self._close_all_new_windows()
 
-    # =
+    # === Utility ===
