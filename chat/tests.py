@@ -65,3 +65,5 @@ class ChatTests(ChannelsLiveServerTestCase):
             self._close_all_new_windows()
 
     # === Utility ===
+
+    def _enter_ch
