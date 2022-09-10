@@ -66,4 +66,5 @@ class ChatTests(ChannelsLiveServerTestCase):
 
     # === Utility ===
 
-    def _enter_chat_room(self, r
+    def _enter_chat_room(self, room_name):
+        
