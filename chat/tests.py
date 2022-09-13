@@ -67,4 +67,4 @@ class ChatTests(ChannelsLiveServerTestCase):
     # === Utility ===
 
     def _enter_chat_room(self, room_name):
-        self.driver.get(self.
+        self.driver.get(self.live_server_url + '/chat/')
