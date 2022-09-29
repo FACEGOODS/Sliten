@@ -72,4 +72,4 @@ class ChatTests(ChannelsLiveServerTestCase):
         WebDriverWait(self.driver, 2).until(lambda _:
             room_name in self.driver.current_url)
 
-    def _o
+    def _open_new_window(self):
