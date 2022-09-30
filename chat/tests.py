@@ -73,4 +73,4 @@ class ChatTests(ChannelsLiveServerTestCase):
             room_name in self.driver.current_url)
 
     def _open_new_window(self):
-        self.dri
+        self.driver.execute_script('
