@@ -74,4 +74,4 @@ class ChatTests(ChannelsLiveServerTestCase):
 
     def _open_new_window(self):
         self.driver.execute_script('window.open("about:blank", "_blank");')
-       
+        self.driver.switc
