@@ -76,4 +76,4 @@ class ChatTests(ChannelsLiveServerTestCase):
         self.driver.execute_script('window.open("about:blank", "_blank");')
         self.driver.switch_to_window(self.driver.window_handles[-1])
 
-    d
+    def _close_all_new
