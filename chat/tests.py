@@ -79,4 +79,4 @@ class ChatTests(ChannelsLiveServerTestCase):
     def _close_all_new_windows(self):
         while len(self.driver.window_handles) > 1:
             self.driver.switch_to_window(self.driver.window_handles[-1])
-  
+            self.driver
