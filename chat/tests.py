@@ -83,4 +83,4 @@ class ChatTests(ChannelsLiveServerTestCase):
         if len(self.driver.window_handles) == 1:
             self.driver.switch_to_window(self.driver.window_handles[0])
 
-    def _switc
+    def _switch_to_window(self, wi
