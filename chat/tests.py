@@ -86,4 +86,4 @@ class ChatTests(ChannelsLiveServerTestCase):
     def _switch_to_window(self, window_index):
         self.driver.switch_to_window(self.driver.window_handles[window_index])
 
-    def _post_me
+    def _post_message(self
