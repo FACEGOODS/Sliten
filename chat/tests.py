@@ -89,4 +89,5 @@ class ChatTests(ChannelsLiveServerTestCase):
     def _post_message(self, message):
         ActionChains(self.driver).send_keys(message + '\n').perform()
 
-    @p
+    @property
+    def
