@@ -87,4 +87,6 @@ class ChatTests(ChannelsLiveServerTestCase):
         self.driver.switch_to_window(self.driver.window_handles[window_index])
 
     def _post_message(self, message):
-        ActionChains(self.driver).send_keys(message + '\n'
+        ActionChains(self.driver).send_keys(message + '\n').perform()
+
+    @p
