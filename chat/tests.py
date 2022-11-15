@@ -90,4 +90,5 @@ class ChatTests(ChannelsLiveServerTestCase):
         ActionChains(self.driver).send_keys(message + '\n').perform()
 
     @property
-    def _chat_log_valu
+    def _chat_log_value(self):
+        return s
