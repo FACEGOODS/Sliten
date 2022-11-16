@@ -91,4 +91,4 @@ class ChatTests(ChannelsLiveServerTestCase):
 
     @property
     def _chat_log_value(self):
-        return s
+        return self.driver.find_element_by_
