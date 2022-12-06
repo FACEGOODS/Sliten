@@ -4,4 +4,4 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('<s
+    path('<str:room_name>/', v
