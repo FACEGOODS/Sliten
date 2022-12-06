@@ -1,4 +1,4 @@
 """
 ASGI config for chat_app project.
 
-It expose
+It exposes the ASGI call
