@@ -7,4 +7,4 @@ For more information on this file, see
 https://docs.djangoproject.com/en/3.2/howto/deployment/asgi/
 """
 import os
-from 
+from channels.auth impo
