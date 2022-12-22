@@ -21,4 +21,4 @@ application = ProtocolTypeRouter({
                 chat.routing.websocket_urlpatterns
             )
     ),
-    # Just HTTP for now. (W
+    # Just HTTP for now. (We can add oth
