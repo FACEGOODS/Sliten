@@ -1,1 +1,3 @@
-"""chat_app URL Configurati
+"""chat_app URL Configuration
+
+The `urlpatte
