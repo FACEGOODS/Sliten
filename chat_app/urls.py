@@ -1,3 +1,3 @@
 """chat_app URL Configuration
 
-The `urlpatte
+The `urlpatterns` list routes
