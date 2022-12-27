@@ -1,3 +1,3 @@
 """chat_app URL Configuration
 
-The `urlpatterns` list routes URLs to views
+The `urlpatterns` list routes URLs to views. For more infor
