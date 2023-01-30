@@ -19,4 +19,4 @@ from django.conf.urls import include
 
 urlpatterns = [
     path('chat/', include('chat.urls')),
-    path('
+    path('admin/', admin.s
