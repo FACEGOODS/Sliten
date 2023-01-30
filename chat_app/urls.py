@@ -18,4 +18,5 @@ from django.urls import path
 from django.conf.urls import include
 
 urlpatterns = [
-    path('chat/', include('chat.u
+    path('chat/', include('chat.urls')),
+    path('
