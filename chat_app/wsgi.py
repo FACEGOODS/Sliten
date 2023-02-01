@@ -1,2 +1,4 @@
 """
-WSGI config for chat_
+WSGI config for chat_app project.
+
+It expos
