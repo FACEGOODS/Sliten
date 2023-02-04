@@ -1,4 +1,4 @@
 """
 WSGI config for chat_app project.
 
-It exposes the WSGI calla
+It exposes the WSGI callable as a module-level
