@@ -11,4 +11,4 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.envir
+os.environ.setdefault('DJANGO
