@@ -1,1 +1,1 @@
-#!/usr
+#!/usr/bin/env pytho
