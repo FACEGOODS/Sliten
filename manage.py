@@ -5,4 +5,5 @@ import sys
 
 
 def main():
-    """Run admi
+    """Run administrative tasks."""
+  
