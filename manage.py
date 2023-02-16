@@ -6,4 +6,4 @@ import sys
 
 def main():
     """Run administrative tasks."""
-  
+    os.environ.setdefau
