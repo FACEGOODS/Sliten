@@ -12,4 +12,5 @@ def main():
     except ImportError as exc:
         raise ImportError(
             "Couldn't import Django. Are you sure it's installed and "
-            "available on your PYTHONPATH environment variab
+            "available on your PYTHONPATH environment variable? Did you "
+   
